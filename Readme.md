@@ -12,5 +12,6 @@ Este é um tutorial genérico criado para testes. Siga os passos abaixo para sim
 ## Passo 2: Criando um Arquivo
 
 1. No terminal, digite o seguinte comando para criar um arquivo:
+2. O lucao e gay
 
    touch meu_arquivo.txt
