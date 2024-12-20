@@ -1,44 +1,45 @@
-Projeto Super Trunfo
-Este projeto foi desenvolvido como parte da disciplina Fundamentos de Programação 2 do curso de Engenharia de Computação na UTFPR - Campus Apucarana.
+#Projeto Super Trunfo
+Um jogo de cartas baseado no clássico Super Trunfo, com tema "Carros Brasileiros". Desenvolvido em linguagem C, como projeto acadêmico. Na disciplina FUNDAMENTOS DE PROGRAMAÇÃO 2
 
-O objetivo é criar um sistema que permite a criação e manipulação de baralhos no estilo "Super Trunfo", utilizando a linguagem C e os conceitos apresentados durante o semestre 2024.2
+##📃 Funcionalidades
+- Gameplay
 
-Funcionalidades
-Gerenciamento de Decks
+- Vizualizar Cartas
+        - Navegar entre todas as cartas
+        - Pesquisar por atributos
+        - Pesquisar por atributos, dentro de um intervalo
 
-Criação de decks com temática definida.
-Estrutura de carta contendo:
-Nome (texto).
-Letra (char).
-Número (int).
-Booleano indicando se é a carta super trunfo.
-Quatro atributos numéricos adicionais (int ou float).
-Operações de CRUD (inserir, listar, pesquisar, alterar, excluir) nas cartas.
-Interação com Arquivos
+- Gerenciar Cartas
+        - Inserir cartas
+        - Deletar cartas
+        - Alterar cartas
 
-Leitura de dados iniciais de um arquivo .csv.
-Salvamento dos dados em arquivos binários ao encerrar o programa.
-Exportação de cartas em formato .csv.
-Interface do Usuário
+- Menus e Submenus
 
-Menu inicial com opções e submenus intuitivos.
-Uso de cores, sons e mensagens para melhorar a experiência.
-Tratamento de erros e mensagens de alerta.
-Partida de Super Trunfo
+-Tratando de erros do usuario
 
-Implementação das regras básicas do jogo contra o computador.
-Possibilidade de adicionar novas regras e funcionalidades criativas.
-Estrutura do Código
-O código é organizado em múltiplos arquivos .c e .h, seguindo boas práticas de programação:
+##🛠️ Estrutura do Projeto
+📂 MeuProjetoSuperTrunfo
+├── programaMain.c       # Contém a função main
+├── projeto.h            # Declarações de funções
+├── projeto.c            # Implementações das funções do jogo
+├── README.md            # Documentação do projeto
+└── Makefile             # Script para facilitar a compilação
 
-Parte Criativa
-Adicionamos funcionalidades criativas, como:
-Campeonato com pontuações.
-Sons e músicas durante o jogo.
-Interface Grafica
-Estatisticas e Rankings
+##🚀 Como Compilar e Executar?
 
-Contribuidores
-Thiago Wesley Pasquim de Melo,     
-Lucas Gabriel Rodrigues de Moraes, 
-Vinicius Gabriel Giordani Barbosa.
+- 1. Pré-requisitos: Tenha um compilador C instalado (como gcc).
+
+- 2. Compilacao:
+        - make
+
+- 3. Execução:
+        - make run
+
+## Desenvolvedores
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/125374128?v=4" width=115><br><sub>Mateus da Silva</sub>](https://github.com/Matias5789) 
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/125374126?v=4" width=115><br><sub>Marina Duarte</sub>](https://github.com/maricamano) 
+|  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/112172388?v=4" width=115><br><sub>Bianca Zatorre</sub>](https://github.com/biancazatorre) 
+|  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/112701726?v=4" width=115><br><sub>Danrley Regis</sub>](https://github.com/DanHunterz1) 
+|  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/123021456?v=4" width=115><br><sub>Gabriel Pimentel</sub>](https://github.com/bielpimentel) |
+:---: | :---: | :---: | :---: | :---: |
