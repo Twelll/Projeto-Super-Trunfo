@@ -1,0 +1,112 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
+#include "projeto.h"
+
+
+int main()
+{
+    // int opcaoMenu;
+    int opcao = 0;
+    int salvaContador = 0;
+    int quantidadeCartasOriginal = 32;
+
+    Cartas *cartas = (Cartas *)malloc((quantidadeCartasOriginal * sizeof(Cartas)));
+    if (cartas == NULL)
+    {
+        printf("ERRO! Nao foi possivel alocar memória\n");
+        exit(1);
+    } // If
+
+    CarregarCartas(&cartas, &quantidadeCartasOriginal);
+
+    salvaContador = ContarCartas();
+
+    int *totalCartas = (int *)malloc(64 * sizeof(int));
+    if (totalCartas == NULL)
+    {
+        perror("ERRO! Nao foi possivel alocar memória.\n");
+        exit(1);
+    } // If
+
+    while (1)
+    {
+
+        // MENU
+        setbuf(stdin, NULL);
+        printf("MENU\n");
+
+        printf("1 - Jogar\n");
+        printf("2 - Buscar/Vizualizar Cartas\n");
+        printf("3 - Estatisticas e Rankings\n");
+        printf("4 - Conquistas\n");
+        printf("5 - Gerenciar Cartas\n");
+        printf("6 - para sair\n");
+        setbuf(stdin, NULL);
+        do
+        {
+            // Requisitando opcao
+            printf("Digite sua opcao: ");
+            scanf("%d", &opcao);
+            setbuf(stdin, NULL);
+
+        } while (opcao < 1 || opcao > 6);
+
+        // Switch - Menu
+        switch (opcao)
+        {
+
+        // JOGAR
+        case 1:
+            printf("Voce escoleheu gameplay\n"); // apenas demonstrativo
+            break;
+
+        // BUSCAR/VIZUALIZAR CARTAS
+        case 2:
+            VizualizaCarta(cartas, salvaContador);
+            break;
+
+        // ESTATISTICAS E RANKINGS
+        case 3:
+            printf("Voce escolheu Estatisticas e Rankings\n"); // apenas demonstrativo
+            // Funcao
+            break;
+
+        // CONQUISTAS
+        case 4:
+            printf("Voce escolheu Conquistas\n"); // apenas demostrativo
+            // Funcao
+            break;
+        case 5:
+            SubMenuGerenciaCartas(cartas, salvaContador);
+            break;
+
+            // Funcao
+        case 6:
+            printf("O Programa sera encerrado\n");
+            return 1;
+            break;
+
+        // NENHUMA OPCAO
+        default:
+            perror("ERRO\n");
+            break;
+        } // Switch
+
+    } // while
+
+    free(cartas);
+    free(totalCartas);
+
+    return 0;
+
+} // main
+
+/*
+ADICIONADO:
+
+
+PENDENCIAS:
+
+*/
