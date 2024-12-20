@@ -39,6 +39,6 @@ Interface Grafica
 Estatisticas e Rankings
 
 Contribuidores
-Thiago Wesley Pasquim de Melo     
-Lucas Gabriel Rodrigues de Moraes 
-Vinicius Gabriel Giordani Barbosa
+Thiago Wesley Pasquim de Melo,     
+Lucas Gabriel Rodrigues de Moraes, 
+Vinicius Gabriel Giordani Barbosa.
