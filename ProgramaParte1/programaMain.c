@@ -23,12 +23,6 @@ int main()
 
     salvaContador = ContarCartas();
 
-    int *totalCartas = (int *)malloc(64 * sizeof(int));
-    if (totalCartas == NULL)
-    {
-        perror("ERRO! Nao foi possivel alocar memória.\n");
-        exit(1);
-    } // If
 
     while (1)
     {
@@ -97,7 +91,6 @@ int main()
     } // while
 
     free(cartas);
-    free(totalCartas);
 
     return 0;
 
