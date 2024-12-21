@@ -61,7 +61,7 @@ Um jogo de cartas baseado no clássico Super Trunfo, com tema "Carros Brasileiro
 - Gameplay 
 
 ## 📄 Licença
-Você pode usar, modificar e distribuir este projeto
+Você pode usar, modificar e distribuir este projeto. [MIT License](./LICENSE)
 
 ## Desenvolvedores
 
