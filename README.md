@@ -4,7 +4,8 @@ Um jogo de cartas baseado no clássico Super Trunfo, com tema "Carros Brasileiro
 ## 🕹 Funcionalidades
 - Gameplay
   - Jogar em Lan
-  - Min. jogadores 2
+  - Jogar Local
+  - Jogar contra computador
 
 - Vizualizar Cartas
   - Navegar entre todas as cartas
