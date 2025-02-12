@@ -36,7 +36,7 @@ Um jogo de cartas baseado no clássico Super Trunfo, com tema "Carros Brasileiro
 
 ## 🎨 Parte Criativa
 - Interface gráfica
-  - Feita em raylib
+  - Feita em rayli
 
 - Estatísticas/Rankings
   -  Histórico
@@ -44,6 +44,8 @@ Um jogo de cartas baseado no clássico Super Trunfo, com tema "Carros Brasileiro
   -  Conquistas
     
 - Lan
+
+- Som
 
 ## 🚀 Como Compilar e Executar?
 
@@ -57,8 +59,7 @@ Um jogo de cartas baseado no clássico Super Trunfo, com tema "Carros Brasileiro
   - make run
 
 ## 🔴Pendências
-- Parte Criativa
-- Gameplay 
+- Interface Grafica
 
 ## 📄 Licença
 Você pode usar, modificar e distribuir este projeto. [MIT License](./LICENSE)
