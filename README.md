@@ -37,7 +37,7 @@ Um jogo de cartas baseado no clássico Super Trunfo, com tema "Carros Brasileiro
 
 ## 🎨 Parte Criativa
 - Interface gráfica
-  - Feita em rayli
+  - Feita em raylib
 
 - Estatísticas/Rankings
   -  Histórico
